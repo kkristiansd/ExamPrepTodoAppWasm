@@ -1,1 +1,36 @@
-{"Users":[{"Id":1,"UserName":"gilbert","Todos":null}],"Todos":[]}
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "gilbert",
+      "Todos": null
+    },
+    {
+      "Id": 2,
+      "UserName": "bruncik",
+      "Todos": null
+    },
+    {
+      "Id": 3,
+      "UserName": "jackdog",
+      "Todos": null
+    },
+    {
+      "Id": 4,
+      "UserName": "gilermo",
+      "Todos": null
+    }
+  ],
+  "Todos": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "gilbert",
+        "Todos": null
+      },
+      "Title": "dont fail dnp",
+      "IsCompleted": false
+    }
+  ]
+}
